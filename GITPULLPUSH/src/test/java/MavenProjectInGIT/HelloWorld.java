@@ -12,6 +12,7 @@ public class HelloWorld {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://google.com");
+		System.out.println("done pass");
 		driver.manage().window().maximize();
 		
 		//use Alert. 
